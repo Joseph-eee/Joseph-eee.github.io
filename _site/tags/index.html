@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Deep Dive | Deep Dive</title>
+<!-- begin _includes/seo.html --><title>Tag | Deep Dive</title>
 <meta name="description" content="Deep Dive 2 Developing">
 
 
@@ -21,8 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Deep Dive">
-<meta property="og:title" content="Deep Dive">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Tag">
+<meta property="og:url" content="http://localhost:4000/tags/">
 
 
   <meta property="og:description" content="Deep Dive 2 Developing">
@@ -42,20 +42,10 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/tags/">
 
 
 
-
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-    "name": "Deep Dive",
-    "url": "http://localhost:4000/"
-}
-</script>
 
 
 
@@ -92,7 +82,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--tags">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -140,6 +130,33 @@
     <div class="initial-content">
       
 
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        <li class="current">Tag</li>
+      
+    
+  </ol>
+</nav>
+
+  
 
 
 <div id="main" role="main">
@@ -261,18 +278,41 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title"></h1>
+      <h1 id="page-title" class="page__title">Tag</h1>
     
     
 
-<h3 class="archive__subtitle">Recent posts</h3>
 
 
 
 
-<div class="entries-list">
+<ul class="taxonomy__index">
   
     
+      
+        <li>
+          <a href="#test">
+            <strong>test</strong> <span class="taxonomy__count">2</span>
+          </a>
+        </li>
+      
+    
+  
+    
+      
+    
+  
+</ul>
+
+
+
+  
+    
+      <section id="test" class="taxonomy__section">
+        <h2 class="archive__subtitle">test</h2>
+        <div class="entries-list">
+          
+            
 
 
 
@@ -318,9 +358,63 @@
   </article>
 </div>
 
-  
+          
+            
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/coding/first/" rel="permalink">First Posting!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-05-08T00:00:00+00:00">May 8, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Welcome
+</p>
+  </article>
 </div>
 
+          
+        </div>
+        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+      </section>
+    
+  
+
+  
+    
+  
 
 
 
