@@ -1,5 +1,5 @@
 var store = [{
-        "title": "First Posting!",
+        "title": "First Post!",
         "excerpt":"Welcome   Hello world,  ","categories": ["Coding"],
         "tags": ["test","test"],
         "url": "/coding/first/",
