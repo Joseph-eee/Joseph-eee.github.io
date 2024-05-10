@@ -20,6 +20,11 @@ docs:
       - title : "Tag"
         url : /tags/
 
+counts :
+  - title : "Category"
+    use : ture
+  - title : "Tag"
+    use : ture 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
