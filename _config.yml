@@ -25,7 +25,7 @@ url                      : "https://Joseph-eee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/DeepDive.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
@@ -131,6 +131,12 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kensigel.j@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://Joseph-eee.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Joseph-eee"
@@ -238,6 +244,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -246,6 +253,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 
 # Archives
@@ -299,3 +307,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc : ture
+      toc_sticky : true
+      toc_label : Contents
+      toc_icon : "fad fa-th-list"
