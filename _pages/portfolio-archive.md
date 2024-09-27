@@ -22,13 +22,13 @@ use_math : false
   Hi, I'm Joseph, Computer Engineer & Software Developer from Korea
   <br>
   <br>
-  🔬 I'm currently self studying for web developing
+  🔬 I'm currently self studying for Robotics
   <br>
   🎓 I graduated from Chosun University, Department of Computer Engineering (Undergraduate)
   <br>
   💻 I love writing code and learn anythings about it
   <br>
-  📚 I’m currently learning how to Web site with spring.
+  📚 I’m currently learning ROS2, Rust
   <br>
   📫 How to reach me: <a href="mailto: kensigel.j@gmail.com">kensigel.j@gmail.com</a>
 </p>
@@ -91,7 +91,7 @@ use_math : false
 -->
 
 <h4 align="center">
-  <a href="https://github.com/?tab=repositories" title="Show Repositories">🔎 Show More 🔍</a>
+  <a href="https://github.com/Joseph-eee?tab=repositories" title="Show Repositories">🔎 Show More 🔍</a>
 </h4>
 
 
